@@ -12,6 +12,7 @@ const Advertisement = (props) => {
       setShowContact(true);
     }
   };
+  
     return (
         <div className="card mb-4 col-md-4">
         <img

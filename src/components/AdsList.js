@@ -13,13 +13,13 @@ export const AdsList = () => {
       picture: "../Car.png",
       title: "Car for sale",
       description: "VolvoXC90",
-      contact: "anders@loren.com",
+      contact: "mikael@engvall.com",
     },
     {
       picture: "../Horse.png",
       title: "Horse for sale",
       description: "A great stallion",
-      contact: "anders@loren.com",
+      contact: "test@testsson.com",
     },
   ];
 
