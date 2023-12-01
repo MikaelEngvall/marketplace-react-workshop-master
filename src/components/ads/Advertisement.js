@@ -12,13 +12,12 @@ const Advertisement = (props) => {
       setShowContact(true);
     }
   };
-  
     return (
         <div className="card mb-4 col-md-4">
         <img
           className="card-img-top"
           src={props.picture}
-          alt="Ad Title"
+          alt={props.title}
         />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>

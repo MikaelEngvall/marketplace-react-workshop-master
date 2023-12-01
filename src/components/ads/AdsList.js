@@ -5,19 +5,19 @@ export const AdsList = () => {
   const adList = [
     {
       picture: "../Mansion.png",
-      title: "House for sale",
+      title: "House",
       description: "A fine mansion",
       contact: "anders@loren.com",
     },
     {
       picture: "../Car.png",
-      title: "Car for sale",
+      title: "Car",
       description: "VolvoXC90",
       contact: "mikael@engvall.com",
     },
     {
       picture: "../Horse.png",
-      title: "Horse for sale",
+      title: "Horse",
       description: "A great stallion",
       contact: "test@testsson.com",
     },
@@ -25,8 +25,7 @@ export const AdsList = () => {
 
   return (
     <>
-      <div class="container mt-5">
-        <h2 class="mb-4">Advertisement List</h2>
+      <div className="container mt-5">
         <div id="advertisements" class="row">
           {adList.map((ad) => (
             <Advertisement
